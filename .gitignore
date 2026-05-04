@@ -43,7 +43,11 @@ htmlcov/
 
 # Cursor
 .cursor/
-.claude/
+
+# Claude Code（仅忽略本地与敏感文件，共享配置进入 git）
+.claude/settings.local.json
+.claude/.credentials.json
+.claude/.cache/
 
 # 文档与测试程序
 mydoc/
